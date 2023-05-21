@@ -1,0 +1,124 @@
+/*center everything*/
+/*change the font*/
+/*add a background, blend in image with background color*/
+/*change the table tiles to images and make them bigger*/
+/*make button nicer and add hover*/
+
+h1 {
+    font-size: 120px;
+    font-weight: 100;
+    margin: 40px
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+h3{
+    font-weight:700;
+} 
+
+.flier{
+    font-size: 100px;
+    position:absolute;
+    animation:emoji 10s linear infinite;
+    transform-origin: center;
+    /* animation: emoji;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    width: 25%;
+    font-size:100px; */
+}
+
+@keyframes emoji {
+    /* 0%{transform: translateX(100%);}
+    100%{transform: translateX(-100%);} */
+    /* 0%{left: 400px; top: 0px;}
+    100%{left:-400px; top: 0px;} */
+    0% {
+        right: 0%;
+        transform: rotateY(0deg);
+      }
+      49% {
+        transform: rotateY(0deg);
+      }
+      50% {
+        right: 90%;
+        transform: rotateY(180deg);
+      }
+      99% {
+        transform: rotateY(180deg);
+      }
+      100% {
+        right: 0%;
+        transform: rotateY(0deg);
+      }
+}
+
+body {
+    text-align: center;
+    list-style-position: inside;
+    font-family: 'Pathway Extreme', sans-serif;
+    background-color: rgb(235, 186, 52);
+    background-image: url(https://cdn.pixabay.com/photo/2018/12/06/14/05/cycling-3859879_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+/*    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    width: 50%;
+    height: 430px:
+}*/
+
+.list-container {
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+    padding: 0px 20px 0px 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: rgb(184, 134, 11, 0.8);
+}
+
+
+
+table {
+    font-size: 50px;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+}
+
+button:hover {
+    background-color:rgb(184, 134, 11);
+}
+    /* font-size:50px; */
+/* } */
+
+/*
+.my-list {
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    justify-content: center;
+} */
+

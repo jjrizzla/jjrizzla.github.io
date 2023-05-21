@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cycling Game</title>
+    <link rel="icon" type="image/icon" href="https://freesvg.org/img/clipartjunky218-Cyclist-on-Bike.png">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Tour de France</h1>
+    <div class="flier">🚴‍♂️</div>
+    <h2>The 3500km race!</h2>
+    <hr />
+    <br>
+<!--    
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRchNYIQZI0ZUIlq6NJ5SaBUylYyVITCud5wQ&usqp=CAU">-->
+    <h3>Rules of the game</h3>
+    <div class="list-container">
+    <ul>
+        <li>Try to reach the finish line</li>
+        <li>Flags mean you're on the right path</li>
+        <li>Avoid the nails!</li>
+    </ul>
+</div>
+    <div class="grid">
+    <table border="1">
+        <tr>
+            <td id="0" onclick="cycle(0)">?</td>
+            <td id="1" onclick="cycle(1)">?</td>
+            <td id="2" onclick="cycle(2)">?</td>
+        </tr>
+        <tr>
+            <td id="3" onclick="cycle(3)">?</td>
+            <td id="4" onclick="cycle(4)">?</td>
+            <td id="5" onclick="cycle(5)">?</td>
+        </tr>
+        <tr>
+            <td id="6" onclick="cycle(6)">?</td>
+            <td id="7" onclick="cycle(7)">?</td>
+            <td id="8" onclick="cycle(8)">?</td>
+        </tr>
+    </table>
+</div>
+    <br>
+    <button type="button" onclick="location.reload()">Restart game</button>
+    <br>
+    <footer>&copy; Joe & Peter | <a href="https://www.letour.fr/en/" target="blank">Tour de France</a>
+    </footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+
+</html>
